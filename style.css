@@ -1,0 +1,70 @@
+body {
+  width:100%;
+  height: 100%;
+  background-color: lightsalmon;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0rem 20rem 0rem 20rem;
+  background-color: aliceblue;
+  border: 1px solid green;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0.1rem 0.1rem 0.4rem black;
+  position: relative;
+
+}
+
+.userInput {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+input {
+  margin-right: 1rem;
+}
+#list{
+  width: auto;
+  height: auto;
+  margin:10px;
+
+}
+
+/* .delClass{
+  background-color: rgb(223, 249, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding:12px 14px;
+  cursor:pointer;
+} */
+
+.wrapper {
+ display: flex;
+ width: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin:10px;
+  padding-left:22px;
+  background-color: #582C3D;
+  color: white;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+ul {
+  display: block;
+}
+
+.delClass {
+  display: flex;
+  color: green;
+}
